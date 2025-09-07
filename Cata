@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalyst Social Work Services</title>
+  <!-- You may include a CSS file here -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Main Content Section -->
+  <section>
+    <!-- Add your main site content here -->
+    <h1>Welcome to Catalyst Social Work Services</h1>
+    <p>Empowering individuals and communities for a better tomorrow.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Catalyst Social Work Services. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
