@@ -1,63 +1,81 @@
-/* Reset some basic styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 header {
-  background-color: #00695c;
+  background: #2c3e50;
   color: white;
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
 }
 
 nav a {
   color: white;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.hero {
+  background: #16a085;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
 }
 
-main {
-  margin-top: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.hero .btn {
+  background: White;
+  color: #16a085;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 section {
-  margin-bottom: 40px;
+  padding: 40px 20px;
 }
 
-h2 {
-  color: #00695c;
-  margin-bottom: 10px;
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #16a085;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 footer {
+  background: #2c3e50;
+  color: white;
   text-align: center;
-  margin-top: 50px;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-  font-size: 0.9em;
+  padding: 15px;
 }
